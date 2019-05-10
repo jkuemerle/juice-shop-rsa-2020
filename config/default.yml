@@ -34,8 +34,12 @@ application:
     contact: 'mailto:donotreply@owasp-juice.shop'
     encryption: 'https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda'
     acknowledgements: '/#/score-board'
+  promotion:
+    video: JuiceShopJingle.mp4
+    subtitles: JuiceShopJingle.vtt
 challenges:
-  safetyOverride: false
+    safetyOverride: false
+    overwriteUrlForProductTamperingChallenge: 'https://owasp.slack.com'
 products:
   -
     name: 'Abstrakt Outfit'
@@ -179,6 +183,14 @@ products:
     price: 99.99
     image: 3d_keychain.jpg # Exif metadata contains "OpenSCAD" as subtle hint...
     fileForRetrieveBlueprintChallenge: JuiceShop.stl # ...to blueprint file type
+  -
+    name: 'Rippertuer Special Juice'
+    description: 'Contains a magical collection of the rarest fruits gathered from all around the world, like Cherymoya Annona cherimola, Jabuticaba Myrciaria cauliflora, Bael Aegle marmelos... and others, at an unbelievable price! <br/><span style="color:red;">This item has been made unavailable because of lack of safety standards.</span>'
+    price: 16.99
+    image: undefined.jpg
+    keywordsForPastebinDataLeakChallenge:
+      - hueteroneel
+      - eurogium edule
 ctf:
   showFlagsInNotifications: true
   showCountryDetailsInNotifications: none # Options: none  name  flag  both

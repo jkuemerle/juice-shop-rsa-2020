@@ -47,18 +47,21 @@ products:
     description: '
     $15 gift card for Xbox console.'
     image: abstrakt-outfit.png
+    useForChristmasSpecialChallenge: true
     reviews: # Options 'author': admin, jim, bender, ciso, support, morty, mc.safesearch
       - { text: 'One of my favorites!', author: admin }
   -
     name: 'Ps4 $25 Gift Card'
     description: '$25 gift card for PlayStation 4.'
     price: 29.99
+    urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
     image: airheart-outfit-hd.png
   -
     name: 'STEAM $15 Gift Card'
     description: '$15 gift card for STEAM game store.'
     price: 19.99
     image: battlehawk-outfit.png
+    fileForRetrieveBlueprintChallenge: JuiceShop.stl # ...to blueprint file type
     reviews:
       - { text: 'I bought it, would buy again. 5/7', author: admin }
   -
@@ -66,6 +69,9 @@ products:
     description: '$30 gift card for Xbox console.'
     price: 34.99
     image: bitemark-pickaxe.png
+    keywordsForPastebinDataLeakChallenge:
+      - hueteroneel
+      - eurogium edule
   -
     name: '$10 Nintendo Gift Card'
     description: '$10 gift card for Nintendo products.'
@@ -93,7 +99,6 @@ products:
     description: 'PlayStation console created by Sony.'
     price: 249.99
     image: orange_juice.jpg
-    urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
 ctf:
   showFlagsInNotifications: true
   showCountryDetailsInNotifications: none # Options: none  name  flag  both

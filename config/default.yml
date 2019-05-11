@@ -46,7 +46,7 @@ products:
     price: 19.99
     description: '
     $15 gift card for Xbox console.'
-    image: abstrakt-outfit.png
+    image: XboxLogo.png
     useForChristmasSpecialChallenge: true
     reviews: # Options 'author': admin, jim, bender, ciso, support, morty, mc.safesearch
       - { text: 'One of my favorites!', author: admin }
@@ -55,12 +55,12 @@ products:
     description: '$25 gift card for PlayStation 4.'
     price: 29.99
     urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
-    image: airheart-outfit-hd.png
+    image: ps4giftcard.png
   -
     name: 'STEAM $15 Gift Card'
     description: '$15 gift card for STEAM game store.'
     price: 19.99
-    image: battlehawk-outfit.png
+    image: Steamlogo.jpeg
     fileForRetrieveBlueprintChallenge: JuiceShop.stl # ...to blueprint file type
     reviews:
       - { text: 'I bought it, would buy again. 5/7', author: admin }

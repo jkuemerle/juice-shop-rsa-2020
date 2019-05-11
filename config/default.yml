@@ -68,7 +68,7 @@ products:
     name: '$30 Xbox Gift Card'
     description: '$30 gift card for Xbox console.'
     price: 34.99
-    image: bitemark-pickaxe.png
+    image: XboxLogo.png
     keywordsForPastebinDataLeakChallenge:
       - hueteroneel
       - eurogium edule
@@ -76,29 +76,29 @@ products:
     name: '$10 Nintendo Gift Card'
     description: '$10 gift card for Nintendo products.'
     price: 14.99
-    image: disco-brawl-pickaxe.png
+    image: nintendologo.jpg
   -
     name: '$10 PS4 Gift Card'
     description: '$10 gift card for PlayStation 4 consoles.'
     price: 14.99
-    image: flying-saucer-glider.png
+    image: ps4giftcard.png
     reviews:
       - { text: 'Fry liked it too.', author: bender }
   -
     name: 'Xbox console'
     description: 'Xbox console created by Microsoft.'
     price: 249.99
-    image: harpoon-axe-harvesting-tool.png
+    image: XboxLogo.png
   -
     name: 'AlienWare Gaming PC'
     description: 'Low lag gaming PC created by AlienWare.'
     price: 1999.99
-    image: laser-chomp-glider.png
+    image: alienware.jpg
   -
     name: 'PS4 Console'
     description: 'PlayStation console created by Sony.'
     price: 249.99
-    image: orange_juice.jpg
+    image: PS4console.jpg
 ctf:
   showFlagsInNotifications: true
   showCountryDetailsInNotifications: none # Options: none  name  flag  both

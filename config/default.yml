@@ -42,155 +42,58 @@ challenges:
     overwriteUrlForProductTamperingChallenge: 'https://owasp.slack.com'
 products:
   -
-    name: 'Abstrakt Outfit'
-    price: 1.99
-    description: 'The all-time classic.'
+    name: 'Xbox $15 Gift Card'
+    price: 19.99
+    description: '
+    $15 gift card for Xbox console.'
     image: abstrakt-outfit.png
     reviews: # Options 'author': admin, jim, bender, ciso, support, morty, mc.safesearch
       - { text: 'One of my favorites!', author: admin }
   -
-    name: 'Airheart Outfit'
-    description: 'Nice and light.'
-    price: 2.99
+    name: 'Ps4 $25 Gift Card'
+    description: '$25 gift card for PlayStation 4.'
+    price: 29.99
     image: airheart-outfit-hd.png
   -
-    name: 'Battlehawk Outfit'
-    description: 'Fly into battle.'
-    price: 8.99
+    name: 'STEAM $15 Gift Card'
+    description: '$15 gift card for STEAM game store.'
+    price: 19.99
     image: battlehawk-outfit.png
     reviews:
       - { text: 'I bought it, would buy again. 5/7', author: admin }
   -
-    name: 'Bitemark Pickaxe'
-    description: 'Made with real teeth.'
-    price: 4.99
+    name: '$30 Xbox Gift Card'
+    description: '$30 gift card for Xbox console.'
+    price: 34.99
     image: bitemark-pickaxe.png
   -
-    name: 'Disco Brawl Pickaxe'
-    description: 'Shiny!'
-    price: 2.99
+    name: '$10 Nintendo Gift Card'
+    description: '$10 gift card for Nintendo products.'
+    price: 14.99
     image: disco-brawl-pickaxe.png
   -
-    name: 'Flying Saucer Glider'
-    description: 'Monkeys love it the most.'
-    price: 1.99
+    name: '$10 PS4 Gift Card'
+    description: '$10 gift card for PlayStation 4 consoles.'
+    price: 14.99
     image: flying-saucer-glider.png
     reviews:
       - { text: 'Fry liked it too.', author: bender }
   -
-    name: 'Harpoon Axe'
-    description: 'Boom!'
-    price: 22.49
+    name: 'Xbox console'
+    description: 'Xbox console created by Microsoft.'
+    price: 249.99
     image: harpoon-axe-harvesting-tool.png
   -
-    name: 'Laser Chomp Glider'
-    description: 'Swim. Shoot. Repeat.'
-    price: 22.49
+    name: 'AlienWare Gaming PC'
+    description: 'Low lag gaming PC created by AlienWare.'
+    price: 1999.99
     image: laser-chomp-glider.png
   -
-    name: 'OWASP SSL Advanced Forensic Tool (O-Saft)'
-    description: 'O-Saft is an easy to use tool to show information about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.'
-    price: 0.01
+    name: 'PS4 Console'
+    description: 'PlayStation console created by Sony.'
+    price: 249.99
     image: orange_juice.jpg
     urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
-  -
-    name: 'Christmas Super-Surprise-Box (2018 Edition)'
-    description: 'Contains a random selection of skins and an extra fan shirt for an unbeatable price!'
-    price: 29.99
-    image: undefined.jpg
-    useForChristmasSpecialChallenge: true
-  -
-    name: 'Patty Wacker Pickaxe'
-    description: 'Flip It!'
-    price: 999.99
-    image: patty-whacker-pickaxe.png
-    deletedDate: '2017-04-28'
-  -
-    name: 'Purrfect Glider'
-    description: 'Upgrade your ride!'
-    price: 14.99
-    image: purrfect-glider.png
-  -
-    name: 'Renegade Roller Pickaxe'
-    description: 'Paint the town.'
-    price: 15.99
-    image: renegade-roller-pickaxe.png
-  -
-    name: 'Shiro Back Bling'
-    description: 'Kitty, kitty, meow, meow.'
-    price: 9.99
-    image: shiro-back-bling.png
-  -
-    name: 'Sledgehammer Outfit'
-    description: 'Super high-quality!'
-    price: 4.99
-    image: sledgehammer-outfit.png
-  -
-    name: 'Squad Leader Outfit'
-    description: 'Get one of these.'
-    price: 14.99
-    image: squad-leader-outfit.png
-    reviews:
-      - { text: 'Straight-up props!', author: mc.safesearch }
-  -
-    name: 'Back Bling'
-    description: 'Wear it behind you.'
-    price: 21.99
-    image: standard-issue-back-bling.png
-  -
-    name: 'Strongbox Back'
-    description: 'Keeps your stuff safe.'
-    price: 49.99
-    image: strongbox-back-bling.png
-  -
-    name: 'Tag Bag Back'
-    description: '4x3.5" embroidered patch with velcro backside. The ultimate decal for every tactical bag or backpack!'
-    price: 2.92
-    image: tag-bag-back-bling.png
-    reviews:
-      - { text: 'This thang would look phat on Bobby''s jacked fur coat!', author: mc.safesearch }
-      - { text: 'Looks so much better on my uniform than the boring Starfleet symbol.', author: jim }
-  -
-    name: 'Teknique Outfit'
-    description: 'Harvested and manufactured in the Black Forest, Germany.'
-    price: 6.99
-    image: teknique-outfit.png
-  -
-    name: 'Tenderizer Pickaxe'
-    description: 'Softens up opponents.'
-    price: 1.99
-    image: tenderizer-pickaxe.png
-    reviews:
-      - { text: 'Fresh out of a replicator.', author: jim }
-  -
-    name: 'Trailblazer Outfit'
-    description: 'Blaze a trail.'
-    price: 4.99
-    image: trailblazer-outfit.png
-  -
-    name: 'Tricera Ops Outfit'
-    description: 'Three points.'
-    price: 0.89
-    image: tricera-ops-outfit.png
-  -
-    name: 'True North Backpack'
-    description: 'Always know where to go.'
-    price: 89.99
-    image: true-north-backpack.png
-  -
-    name: '3D-JS'
-    description: 'This rare item was designed and handcrafted in Sweden. This is why it is so incredibly expensive despite its complete lack of purpose.'
-    price: 99.99
-    image: 3d_keychain.jpg # Exif metadata contains "OpenSCAD" as subtle hint...
-    fileForRetrieveBlueprintChallenge: JuiceShop.stl # ...to blueprint file type
-  -
-    name: 'Rippertuer Special Juice'
-    description: 'Contains a magical collection of the rarest fruits gathered from all around the world, like Cherymoya Annona cherimola, Jabuticaba Myrciaria cauliflora, Bael Aegle marmelos... and others, at an unbelievable price! <br/><span style="color:red;">This item has been made unavailable because of lack of safety standards.</span>'
-    price: 16.99
-    image: undefined.jpg
-    keywordsForPastebinDataLeakChallenge:
-      - hueteroneel
-      - eurogium edule
 ctf:
   showFlagsInNotifications: true
   showCountryDetailsInNotifications: none # Options: none  name  flag  both

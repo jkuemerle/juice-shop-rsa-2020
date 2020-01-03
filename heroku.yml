@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-    web: /opt/beef/beef --port $PORT
+    web: /juice-shop/npm start

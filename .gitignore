@@ -34,7 +34,7 @@ assets/
 !frontend/src/assets/
 
 # Custom configuration files
-config/*.yml
+#config/*.yml
 !config/bodgeit.yml
 !config/ctf.yml
 !config/fbctf.yml

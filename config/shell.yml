@@ -1,0 +1,105 @@
+server:
+  port: 3000
+application:
+  domain: codemash.org
+  name: 'Shelleys Store'
+  logo: JuiceShop_Logo.png
+  favicon: favicon_js.ico
+  numberOfRandomFakeUsers: 1
+  showChallengeSolvedNotifications: false
+  showChallengeHints: false
+  showVersionNumber: false
+  theme: blue-lightblue # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
+  gitHubRibbon: false
+  twitterUrl: 'https://twitter.com/jkuemerle'
+  facebookUrl: 'https://www.facebook.com/owasp.juiceshop'
+  slackUrl: 'http://owaspslack.com'
+  pressKitUrl: 'https://github.com/OWASP/owasp-swag/tree/master/projects/juice-shop'
+  planetOverlayMap: orangemap2k.jpg
+  planetName: Orangeuze
+  recyclePage:
+    topProductImage: fruit_press.jpg
+    bottomProductImage: apple_pressings.jpg
+  altcoinName: Baconcoin
+  cookieConsent:
+    backgroundColor: '#546e7a'
+    textColor: '#ffffff'
+    buttonColor: '#558b2f'
+    buttonTextColor: '#ffffff'
+    message: 'This website uses  cookies to ensure you get the best experience.'
+    dismissText: 'Me want it!'
+    linkText: 'But me wait!'
+    linkUrl: 'https://www.youtube.com/watch?v=9PnbKL3wuH4'
+  securityTxt:
+    contact: 'mailto:donotreply@owasp-juice.shop'
+    encryption: 'https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda'
+    acknowledgements: '/#/score-board'
+  promotion:
+    video: JuiceShopJingle.mp4
+    subtitles: JuiceShopJingle.vtt
+challenges:
+    safetyOverride: false
+    overwriteUrlForProductTamperingChallenge: 'https://owasp.slack.com'
+products:
+  -
+    name: 'Xbox $15 Gift Card'
+    price: 19.99
+    description: '
+    $15 gift card for Xbox console.'
+    image: XboxLogo.png
+    useForChristmasSpecialChallenge: true
+    reviews: # Options 'author': admin, jim, bender, ciso, support, morty, mc.safesearch
+      - { text: 'One of my favorites!', author: admin }
+  -
+    name: 'Ps4 $25 Gift Card'
+    description: '$25 gift card for PlayStation 4.'
+    price: 29.99
+    urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
+    image: ps4giftcard.png
+  -
+    name: 'STEAM $15 Gift Card'
+    description: '$15 gift card for STEAM game store.'
+    price: 19.99
+    image: Steamlogo.jpeg
+    fileForRetrieveBlueprintChallenge: JuiceShop.stl # ...to blueprint file type
+    reviews:
+      - { text: 'I bought it, would buy again. 5/7', author: admin }
+  -
+    name: '$30 Xbox Gift Card'
+    description: '$30 gift card for Xbox console.'
+    price: 34.99
+    image: XboxLogo.png
+    keywordsForPastebinDataLeakChallenge:
+      - hueteroneel
+      - eurogium edule
+  -
+    name: '$10 Nintendo Gift Card'
+    description: '$10 gift card for Nintendo products.'
+    price: 14.99
+    image: nintendologo.jpg
+  -
+    name: '$10 PS4 Gift Card'
+    description: '$10 gift card for PlayStation 4 consoles.'
+    price: 14.99
+    image: ps4giftcard.png
+    reviews:
+      - { text: 'Fry liked it too.', author: bender }
+  -
+    name: 'Xbox console'
+    description: 'Xbox console created by Microsoft.'
+    price: 249.99
+    image: XboxLogo.png
+  -
+    name: 'AlienWare Gaming PC'
+    description: 'Low lag gaming PC created by AlienWare.'
+    price: 1999.99
+    image: alienware.jpg
+  -
+    name: 'PS4 Console'
+    description: 'PlayStation console created by Sony.'
+    price: 249.99
+    image: PS4console.jpg
+ctf:
+  showFlagsInNotifications: false
+  showCountryDetailsInNotifications: none # Options: none  name  flag  both
+  countryMapping: ~

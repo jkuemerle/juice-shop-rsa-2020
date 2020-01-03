@@ -1,6 +1,7 @@
 FROM node:10 as installer
 COPY . /juice-shop
 WORKDIR /juice-shop
+RUN npm rebuild node-sass
 RUN npm install --production --unsafe-perm
 RUN rm -rf frontend/node_modules
 
@@ -21,6 +22,9 @@ LABEL maintainer="Bjoern Kimminich <bjoern.kimminich@owasp.org>" \
     org.opencontainers.image.created=$BUILD_DATE
 WORKDIR /juice-shop
 COPY --from=installer /juice-shop .
+RUN apk --no-cache add curl
+RUN apk --no-cache add python
+RUN npm rebuild node-sass
 RUN addgroup juicer && \
     adduser -D -G juicer juicer && \
     chown -R juicer /juice-shop && \

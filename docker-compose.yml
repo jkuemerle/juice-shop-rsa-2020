@@ -1,0 +1,30 @@
+version: '3.7'
+
+services:
+  juiceshop:
+    build: .
+    user: root
+    restart: always
+    ports:
+      - "3290:3000"
+    environment:
+      - NODE_ENV=shell
+      - RAW_EVAL=1
+    depends_on:
+      - attacker
+    networks:
+        default:
+        internal:
+
+  attacker:
+    image: ubuntu
+    restart: always
+    command: tail -F anything
+    networks:
+        default:
+        internal:
+
+networks:
+    default:
+    internal:
+        internal: true

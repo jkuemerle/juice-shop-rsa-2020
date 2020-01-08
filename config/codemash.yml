@@ -2,7 +2,7 @@ server:
   port: 3000
 application:
   domain: codemash-unfortunate-store.herokuapp.com
-  name: 'Unfortunate Store'
+  name: 'Various Functional Devices'
   logo: JuiceShop_Logo.png
   favicon: favicon_js.ico
   numberOfRandomFakeUsers: 6
@@ -42,63 +42,62 @@ challenges:
     overwriteUrlForProductTamperingChallenge: 'https://owasp.slack.com'
 products:
   -
-    name: 'Xbox $15 Gift Card'
+    name: 'Hair Dye'
     price: 19.99
-    description: '
-    $15 gift card for Xbox console.'
-    image: XboxLogo.png
+    description: 'Very fine dye. Speaking of which, has anyone ever seen Brian and Count Olaf in the same room?.'
+    image: orange-hair.jpeg
     useForChristmasSpecialChallenge: true
     reviews: # Options 'author': admin, jim, bender, ciso, support, morty, mc.safesearch
       - { text: 'One of my favorites!', author: admin }
   -
-    name: 'Ps4 $25 Gift Card'
-    description: '$25 gift card for PlayStation 4.'
+    name: 'Sugar Bowl'
+    description: 'Great for storing sugar. Or secrets.'
     price: 29.99
     urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
-    image: ps4giftcard.png
+    image: sugarbowl.jpg
   -
-    name: 'STEAM $15 Gift Card'
-    description: '$15 gift card for STEAM game store.'
+    name: 'Red Herring'
+    description: 'Very fresh dining.'
     price: 19.99
-    image: Steamlogo.jpeg
+    image: redherring.jpg
     fileForRetrieveBlueprintChallenge: JuiceShop.stl # ...to blueprint file type
     reviews:
       - { text: 'I bought it, would buy again. 5/7', author: admin }
   -
-    name: '$30 Xbox Gift Card'
-    description: '$30 gift card for Xbox console.'
-    price: 34.99
-    image: XboxLogo.png
+    name: 'Hair Ribbons'
+    description: 'Great for when you need to concentrate on inventing.'
+    price: 10.99
+    image: hairtie.jpg
     keywordsForPastebinDataLeakChallenge:
       - hueteroneel
       - eurogium edule
   -
-    name: '$10 Nintendo Gift Card'
-    description: '$10 gift card for Nintendo products.'
+    name: 'Spyglass'
+    description: 'Visualize faraway depictions.'
     price: 14.99
-    image: nintendologo.jpg
+    image: spyglass.jpg
   -
-    name: '$10 PS4 Gift Card'
-    description: '$10 gift card for PlayStation 4 consoles.'
+    name: 'The Incomplete Reference of Secret Organizations'
+    description: 'Very fine descriptions.'
     price: 14.99
-    image: ps4giftcard.png
+    image: Tihoso_cover.jpg
     reviews:
       - { text: 'Fry liked it too.', author: bender }
   -
-    name: 'Xbox console'
-    description: 'Xbox console created by Microsoft.'
+    name: 'Grappling Hook'
+    description: 'Very forked device.'
     price: 249.99
-    image: XboxLogo.png
+    image: hook.jpg
   -
-    name: 'AlienWare Gaming PC'
-    description: 'Low lag gaming PC created by AlienWare.'
-    price: 1999.99
-    image: alienware.jpg
+    name: 'Verdant Flammable Device'
+    description: 'Visible fog distributor.'
+    price: 22.99
+    image: GreenFlamers.png
   -
-    name: 'PS4 Console'
-    description: 'PlayStation console created by Sony.'
-    price: 249.99
-    image: PS4console.jpg
+    name: 'Self-Sustaining Hot Air Mobile Home'
+    description: 'Vehicle for departure.'
+    price: 65499.99
+    image: MobileHome.png
 ctf:
   showFlagsInNotifications: false
   showCountryDetailsInNotifications: none # Options: none  name  flag  both

@@ -38,7 +38,7 @@ application:
     video: JuiceShopJingle.mp4
     subtitles: JuiceShopJingle.vtt
 challenges:
-    safetyOverride: false
+    safetyOverride: true
     overwriteUrlForProductTamperingChallenge: 'https://owasp.slack.com'
 products:
   -

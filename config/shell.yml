@@ -46,7 +46,6 @@ products:
     price: 19.99
     description: 'Very fine dye. Speaking of which, has anyone ever seen Brian and Count Olaf in the same room?.'
     image: orange-hair.jpeg
-    useForChristmasSpecialChallenge: true
     reviews: # Options 'author': admin, jim, bender, ciso, support, morty, mc.safesearch
       - { text: 'One of my favorites!', author: admin }
   -
@@ -87,6 +86,7 @@ products:
     name: 'Grappling Hook'
     description: 'Very forked device.'
     price: 249.99
+    useForChristmasSpecialChallenge: true
     image: hook.jpg
   -
     name: 'Verdant Flammable Device'

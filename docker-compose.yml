@@ -10,6 +10,9 @@ services:
     environment:
       - NODE_ENV=shell
       - RAW_EVAL=1
+      - AWS_ACCESS_KEY_ID = AKIA35OHX2DSDD3DOLY5
+      - AWS_SECRET_ACCESS_KEY = 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
+      - SLACK_API_KEY = HFE7FHIH/FEDFEYhfeouyGDKJEH743IOFUEOIU/ferFHD
     depends_on:
       - attacker
     networks:

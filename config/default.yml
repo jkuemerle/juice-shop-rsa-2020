@@ -1,8 +1,8 @@
 server:
   port: 3000
 application:
-  domain: codemash.org
-  name: 'Connors Store'
+  domain: kuemerle.com
+  name: 'RSAC 2020 Store'
   logo: JuiceShop_Logo.png
   favicon: favicon_js.ico
   numberOfRandomFakeUsers: 0
